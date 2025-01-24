@@ -17,16 +17,16 @@ This project is a work in progrees console-based asynchronous multiplayer game i
 ## How to Run
 1. **Compile the server and client:**
    ```sh
-   gcc server.c -o server -lpthread
-   gcc client.c -o client
+   gcc ServerApp.c -o ServerApp -lpthread
+   gcc GameApp.c -o GameApp
    ```
 2. **Start the server:**
    ```sh
-   ./server
+   ./ServerApp
    ```
 3. **Start clients and play:**
    ```sh
-   ./client
+   ./GameApp
    ```
 
 ## License
