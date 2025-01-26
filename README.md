@@ -17,8 +17,8 @@ This project is a work in progrees console-based asynchronous multiplayer game i
 ## How to Run
 1. **Compile the server and client:**
    ```sh
-   gcc ServerApp.c -o ServerApp -lpthread
-   gcc GameApp.c -o GameApp
+   gcc ServerApp.c -o ServerApp -lpthread -lws2_32
+   gcc GameApp.c -o GameApp -lws2_32
    ```
 2. **Start the server:**
    ```sh
